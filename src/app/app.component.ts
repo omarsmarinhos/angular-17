@@ -14,6 +14,7 @@ export class AppComponent {
   tasks = [
     'Instalar el Angular CLI',
     'Crear el proyecto',
-    'Crear componentes'
+    'Crear componentes',
+    'Crear servicio'
   ]
 }
