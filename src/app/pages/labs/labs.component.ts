@@ -17,4 +17,12 @@ export class LabsComponent {
     'Crear servicio'
   ]
   name= 'Omar';
+  disabled = true;
+  img = 'http://w3schools.com/howto/img_avatar.png';
+
+  person = {
+    name: 'Omar',
+    age: 23,
+    avatar: 'http://w3schools.com/howto/img_avatar.png'
+  }
 }

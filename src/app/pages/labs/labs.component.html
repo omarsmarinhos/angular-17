@@ -5,4 +5,10 @@
     {{ task }}
   </li>
 </ul>
-<h2>{{ name }}</h2>
+<hr>
+<h2>Hola soy {{ person.name }} y tengo {{ person.age }} años</h2>
+<hr>
+<img [src]="person.avatar" alt="" width="200">
+<hr>
+<input type="text"  [value]="name">
+<button [disabled]="disabled">Click me</button>
