@@ -33,4 +33,9 @@ export class LabsComponent {
   changeHandler(e: Event) {
     console.log(e);
   }
+
+  keydownHandler(e: KeyboardEvent) {
+    const input = e.target as HTMLInputElement;
+    console.log(input.value);
+  }
 }
